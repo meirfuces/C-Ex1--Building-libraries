@@ -1,5 +1,5 @@
 #include "myMath.h"
-#define exp 2.7182
+#define exp 2.718281828
 double Pow (double x, int y){
     double p=1;
     if (y>0){
