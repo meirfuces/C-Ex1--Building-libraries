@@ -22,6 +22,6 @@ basicMath.o:basicMath.c myMath.h
 	$(CC) $(FLAG) -g -c basicMath.c
 main.o:myMath.h main.c
 	$(CC) $(FLAG) -g -c main.c
-PHONY: mymaths mymathd
+.PHONY: mymaths mymathd clean all
 clean:
 	rm -f *.o *.a *.so mains maind
