@@ -3,7 +3,7 @@ FLAG=-Wall
 AR=ar
 OBJECT_POW_BASIC=basicMath.o power.o
 fPIC=-fPIC
-all: mymathd mymaths mains maind
+all: mains maind
 
 mymathd:libmyMath.so 
 mymaths:libmyMath.a
